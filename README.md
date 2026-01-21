@@ -51,13 +51,3 @@ I enjoy building complete applications — from designing interactive user inter
 - Backend-driven projects with REST APIs  
 
 ---
-
-## 📦 Installation & Setup
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/shavyam-portfolio.git
-cd shavyam-portfolio
-t the contact form working create an AWS account and set up SES (Simple Email service). Then plug in your details into `.dev.vars.example` and rename it to `.dev.vars`. You'll also need to add these as enviroment variables in the Cloudflare dashboard for it to work in production. Or if you don't mind sending through gmail use [nodemailer](https://nodemailer.com/) instead.
-</details>
