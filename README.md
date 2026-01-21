@@ -3,54 +3,51 @@
 </p>
 <h1 align="center">Personal portfolio</h1>
 
-[![Site preview](/public/site-preview.png)](https://hamishw.com)
+# 🌐 Shavyam Chitranshi — Portfolio Website
 
-My design portfolio to showcase a few projects. Built with [Remix](https://remix.run/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://hamishw.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
+This is my personal portfolio website built to showcase my projects, skills, and learning journey as a Computer Science student and full-stack developer.
 
-## Install & run
+The site focuses on clean design, smooth animations, and a modern developer experience.
 
-Make sure you have nodejs `19.9.0` or higher and npm `9.6.3` or higher installed. Install dependencies with:
+---
 
-```bash
-npm install
-```
+## 🚀 Live Demo
+👉 (Add your deployed link here later)
 
-Once it's done start up a local server with:
+---
 
-```bash
-npm run dev
-```
+## 🧑‍💻 About Me
+I’m **Shavyam Chitranshi**, a BTech student with experience in both **frontend and backend development**.  
+I enjoy building complete applications — from designing interactive user interfaces to writing APIs and managing databases.
 
-To view the components storybook:
+---
 
-```bash
-npm run dev:storybook
-```
+## 🛠️ Tech Stack
 
-## Deployment
+### Frontend
+- **Framework:** React / Next.js  
+- **Styling:** CSS / Tailwind CSS  
+- **Animations:** GSAP / Framer Motion  
 
-I've set up the site using Cloudflare for hosting. Deploy the site to Cloudflare Pages:
+### Backend
+- **Runtime:** Node.js  
+- **Framework:** Express.js  
+- **Database:** MySQL / SQL  
+- **APIs:** RESTful APIs (CRUD operations)  
 
-```bash
-npm run deploy
-```
+### Tools & Deployment
+- Git & GitHub  
+- Vercel / Netlify (Frontend)  
+- Node + Database (Backend)
 
-## Permissions
+---
 
-I'm cool with anyone using the code or parts of the code for their own site, it is open source so people can learn from it and adapt it. However, I would encourage you to modify the theme and components it to make it your own. If you are using the site's design largely unmodified, I'd appreciate being credited as the designer of the website.
+## 📁 Features
 
-I do not give permission to present any of my projects as your own (this is being actively used as my portfolio site and these are my real projects I've worked on).
+- Responsive, mobile-first design  
+- Smooth scroll-based animations  
+- Project showcase with frontend & backend projects  
+- Clean architecture and reusable components  
+- Backend-driven projects with REST APIs  
 
-## FAQs
-
-<details>
-  <summary>How do I change the color on the <code>DisplacementSphere</code> (blobby rotating thing in the background).</summary>
-  
-  You'll need to edit the fragment shader. [Check out this issue for more details](https://github.com/HamishMW/portfolio/issues/19#issuecomment-870996615).
-</details>
-
-<details>
-  <summary>How do I get the contact form to work?</summary>
-  
-  To get the contact form working create an AWS account and set up SES (Simple Email service). Then plug in your details into `.dev.vars.example` and rename it to `.dev.vars`. You'll also need to add these as enviroment variables in the Cloudflare dashboard for it to work in production. Or if you don't mind sending through gmail use [nodemailer](https://nodemailer.com/) instead.
-</details>
+---
